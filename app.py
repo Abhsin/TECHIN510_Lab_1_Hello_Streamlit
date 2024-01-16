@@ -1,68 +1,62 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Abhishek Singh",
+    page_title="Abhishek's Website",
     page_icon=":sunglasses:",
     layout="centered",  # centered or wide
     initial_sidebar_state="auto",
 )
 
-col1, col2 = st.columns([0.5, 0.5], gap="large")
+col1, col2 = st.columns([0.3, 0.7])
 with col1:
     st.markdown(
         """
     <style>
     .profile-img img {
         width: 100%;
-        border-radius: 100%;
+        border-radius: 25%;
+        border: 3px solid white;
     }
     </style>
 
     <div class="profile-img">
 
-    ![]('https://raw.githubusercontent.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/main/images/ProfilePic.jpg')
+    ![](https://raw.githubusercontent.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/main/images/ProfilePic.jpg)
     </div>
     """,
         unsafe_allow_html=True,
     )
-    st.image('https://raw.githubusercontent.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/main/images/ProfilePic.jpg')
+
 with col2:
     st.markdown(
         """
-    #    
-    # Abhishek Singh
-
+    # Abhishek (He/Him)
+                
+    - Designer
+    - Innovator
     - MS Student at University of Washington
-    - Designer!
-    
+
     """
     )
 
-
 st.markdown(
     """
-# Projects
+# What I have been upto?
+In the intricate tapestry of my existence, every pursuit and endeavor becomes a unique thread in the narrative of my life. What I've been up to is not just a series of actions; it's an exploration of the profound depths of my own consciousness. Navigating the complexities of life, each choice and endeavor is like a brushstroke on the canvas of my personal journey. Whether I'm immersed in intellectual pursuits, expressing my creativity, or seeking self-discovery, the essence lies in my continual quest for meaning and understanding. It's within these pursuits that I discover the rich tapestry of my own existence, where each thread contributes to the unfolding masterpiece of a life well-lived.
 
 """
 )
 
-
 st.markdown(
     """
-# Hobbies
-- Cooking!
--Crafting!
--Swimming!
-
-
+# Things I do - 
 """)
-st.markdown(
-    """
-# About
+col1, col2 = st.columns(2)
+with col1:
+    st.markdown("[![](images\AP.png)](http://google.com.au/)")
+with col2:
+    st.markdown("[![](images\latis.png)](http://google.com.au/)")
 
-I am Alive!
-
-""")
 
 
 ft = """
@@ -85,7 +79,7 @@ text-decoration: underline;
 }
 
 footer{
-    visibility:hidden;
+    visibility: hidden;
 }
 
 .footer {
@@ -104,7 +98,7 @@ text-align: left; /* you can replace 'left' with 'center' or 'right' if you want
 
 <div class="footer">
 <p style='font-size: 0.875em;'>Made with <a style='display: inline; text-align: left;' href="https://streamlit.io/" target="_blank">Streamlit</a><br 'style= top:3px;'>
-with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.png" alt="heart" height= "10"/><a style='display: inline; text-align: left;' href="https://github.com/Abhsin" target="_blank"> by Abhi!</a></p>
+with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.png" alt="heart" height= "10"/><a style='display: inline; text-align: left;' href="https://github.com/Abhsin" target="_blank"> by Abhishek</a></p>
 </div>
 
 </div>
