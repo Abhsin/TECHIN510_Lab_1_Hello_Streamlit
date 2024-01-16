@@ -20,12 +20,12 @@ with col1:
 
     <div class="profile-img">
 
-    ![]('https://github.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/blob/fc2f85c975c715843c5d93c98d187588ee93cf4d/images/ProfilePic.jpg')
+    ![]('https://raw.githubusercontent.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/main/images/ProfilePic.jpg')
     </div>
     """,
         unsafe_allow_html=True,
     )
-    st.image('https://github.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/blob/fc2f85c975c715843c5d93c98d187588ee93cf4d/images/ProfilePic.jpg')
+    st.image('https://raw.githubusercontent.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/main/images/ProfilePic.jpg')
 with col2:
     st.markdown(
         """
