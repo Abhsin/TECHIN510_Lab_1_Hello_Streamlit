@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Aayush Kumar - Engineer, Roboticist, Maker",
-    page_icon="👨🏻‍💻",
+    page_title="Abhishek Singh",
+    page_icon=":sunglasses:",
     layout="centered",  # centered or wide
     initial_sidebar_state="auto",
 )
@@ -20,12 +20,12 @@ with col1:
 
     <div class="profile-img">
 
-    ![]('images\ProfilePic.jpg')
+    ![]('https://github.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/blob/fc2f85c975c715843c5d93c98d187588ee93cf4d/images/ProfilePic.jpg')
     </div>
     """,
         unsafe_allow_html=True,
     )
-    st.image('images\ProfilePic.jpg')
+    st.image('https://github.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/blob/fc2f85c975c715843c5d93c98d187588ee93cf4d/images/ProfilePic.jpg')
 with col2:
     st.markdown(
         """
