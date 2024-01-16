@@ -50,11 +50,10 @@ st.markdown(
 st.markdown(
     """
 # Hobbies
+- Cooking!
+-Crafting!
+-Swimming!
 
-- Playing table tennis
-- Making embedded Projects
-- Reverse engineering cool gadgets
-- Swimming
 
 """)
 st.markdown(
