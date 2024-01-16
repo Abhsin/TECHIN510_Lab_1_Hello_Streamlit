@@ -49,14 +49,125 @@ In the intricate tapestry of my existence, every pursuit and endeavor becomes a 
 
 st.markdown(
     """
-# Things I do - 
+# My Projects - 
 """)
 col1, col2 = st.columns(2)
 with col1:
-    st.markdown("[![](images\AP.png)](http://google.com.au/)")
-with col2:
-    st.markdown("[![](images\latis.png)](http://google.com.au/)")
+    st.markdown(
+        """
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
 
+.image {
+  display: block;
+  width: 100%;
+  border-radius: 10%;
+
+
+}
+
+.overlay1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #451030;
+  border-radius: 10%;
+}
+
+.container:hover .overlay1 {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+<div class="container">
+  <img src="https://raw.githubusercontent.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/main/images/AP.png" alt="Avatar" class="image">
+  <a href = "https://drive.google.com/file/d/1eciKHR7cMEy8mxDYhHs37HHtbjGI6Gh7/view">
+  <div class="overlay1">
+    <div class="text" >Annapurna</div>
+  </div>
+</div>
+""",
+    unsafe_allow_html=True,
+)    
+    
+with col2:
+    st.markdown(
+        """
+<style>
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  border-radius: 10%;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #17B254;
+  border-radius: 10%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+
+<div class="container">
+  <img src="https://raw.githubusercontent.com/Abhsin/TECHIN510_Lab_1_Hello_Streamlit/main/images/latis.png" alt="Avatar" class="image">
+  <a href = "https://drive.google.com/file/d/1SKhe__KB364oGXmt_6VHf5aSD2CWtDYt/view">
+  <div class="overlay">
+    <div class="text" >LATIS: A Biomimicry Project</div>
+  </div>
+</div>
+""",
+    unsafe_allow_html=True,
+)
 
 
 ft = """
